@@ -15,6 +15,7 @@
     <title>Tour</title>
   </head>
   <body>
+    <!-- TODO : navbar fixed the spacing between items -->
     <nav class="navbar">
       <div class="container navbar-flex">
         <img src="./assets/logo.png" alt="" class="logo" />
@@ -25,31 +26,37 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#tours">Tours</a></li>
           </ul>
-          <ul class="main-menu-icons">
-            <li>
-              <a
-                href="http://www.facebook.com"
-                target="_blank"
-                class="nav-icon"
-              >
-                <i class="fa-brands fa-facebook"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="http://www.instagram.com"
-                target="_blank"
-                class="nav-icon"
-              >
-                <i class="fa-brands fa-instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a href="http://www.twitter.com" target="_blank" class="nav-icon">
-                <i class="fa-brands fa-twitter"></i
-              ></a>
-            </li>
-          </ul>
+         
+            <ul class="main-menu-icons">
+              <li>
+                <a
+                  href="http://www.facebook.com"
+                  target="_blank"
+                  class="nav-icon"
+                >
+                  <i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="http://www.instagram.com"
+                  target="_blank"
+                  class="nav-icon"
+                >
+                  <i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="http://www.twitter.com"
+                  target="_blank"
+                  class="nav-icon"
+                >
+                  <i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="mobile-menu">
           <div class="mobile-menu-toggle">
@@ -66,10 +73,97 @@
         </div>
       </div>
     </nav>
-    <section class="hero" id="home"></section>
-    <section class="section about" id="about"></section>
-    <section class="section services" id="services"></section>
-    <section class="section tours" id="tours"></section>
+    <section class="hero" id="home">
+      <div class="hero container">
+        <h1>continue exploring</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+          asperiores.
+        </p>
+        <a href="#tours" class="btn hero-btn">explore tours</a>
+      </div>
+    </section>
+    <section class="section about" id="about">
+      <h2>about <span>us</span></h2>
+      <div class="about-center">
+        <div class="about-img">
+          <img src="../assets/beach.png" alt=""/>
+        </div>
+        <article class="about-info">
+          <h3>expore the difference</h3>
+          <p>Lorem ipsum dolor sit.</p>
+          <p>Lorem ipsum dolor sit.</p>
+          <a href="#" class="btn">read more</a>
+        </article>
+      </div>
+
+    </section>
+    <section class="section services" id="services">
+       <h2>our <span>services</span></h2>
+       <div class="service-center">
+        <!-- first icon -->
+        <article class="service">
+          <span class="service-icon">
+            <i class="fa-solid fa-wallet"></i>
+          </span>
+          <div class="service-info">
+            <h4>save money</h4>
+          </div>
+          <div class="service-text">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </article>
+        <!-- second icon -->
+         <article class="service">
+          <span class="service-icon">
+            <i class="fa-solid fa-tree"></i>
+          </span>
+          <div class="service-info">
+            <h4>endless hiking</h4>
+          </div>
+          <div class="service-text">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </article>
+        <!-- third icon -->
+         <article class="service">
+          <span class="service-icon">
+            <i class="fa-solid fa-socks"></i>
+          </span>
+          <div class="service-info">
+            <h4>amazing comfort</h4>
+          </div>
+          <div class="service-text">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </article>
+       </div>
+    </section>
+    <section class="section tours" id="tours">
+       <h2>featured <span>tours</span></h2>
+       <div class="tour-center">
+        <!-- first card -->
+        <div class="tour-card">
+          <div class="tour-img-container">
+            <img src="" alt=""/>
+            <p class="tour-date">Aug 26th, 2026</p>
+          </div>
+          <div class="tour-info">
+            <div class="tour-title">
+              <h4>tibet adventure</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="tour-footer">
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- seconf card -->
+        <!-- third card -->
+        <!-- forth card -->
+       </div>
+    </section>
     <footer class="section footer">
       <ul class="footer-menu-list">
         <li><a href="#home">Home</a></li>
